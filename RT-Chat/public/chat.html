@@ -2,29 +2,38 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="css/styleclass.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
     <title>RT-Chat</title>
 </head>
-<body>
-    <h1>Welcome to your real time chat application !!</h1>
+<body class="bg-color color-w">
+    <div class="container">
+        <h1 class="center">Chat Coloc'</h1>
 
-    <div id="chatInfo">
-        <h3>Room Name:</h3>
-        <h2 id="roomName"></h2>
+        <div class="row" id="chatGlobal">
+            <div id="chatInfo" class="col">
+                <h3>Room Name:</h3>
+                <h2 id="roomName"></h2>
 
-        <h3>Users:</h3>
-        <ul id="userList">
-            
-        </ul>
+                <h3>Users:</h3>
+                <ul id="userList">
+                    
+                </ul>
+            </div>
+
+            <div class="col">
+                <div class="chatMessage bg-white" id="chatMessage">
+
+                </div>
+
+                <form id="chatForm" class="bg-color-dark">
+                    <input type="text" class="no-border bg-color-dark mb-2 fs-1" id="msg" placeholder="Enter a message" required autocomplete="off">
+                    <button class="bg-color-dark color-w no-border" id="button">Send</button>
+                </form>
+            </div>
+        </div>
     </div>
-
-    <div class="chatMessage">
-
-    </div>
-
-    <form id="chatForm">
-        <input type="text" id="msg" placeholder="Enter a message" required autocomplete="off">
-        <button class="btn">Send</button>
-    </form>
 
     <script 
     src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.11.1/qs.min.js" 
