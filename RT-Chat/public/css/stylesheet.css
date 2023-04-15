@@ -1,0 +1,16 @@
+#username{ border-bottom: solid 1px white; }
+#username::placeholder{ color: white; }
+#username:focus{ opacity: 60%; }
+option:focus{ outline: 0 !important; background: transparent; } option:hover{ outline: 0 !important;  background: transparent; }
+option:nth-child(1){ background-color: white; color: #FC8369; }
+#button{
+    text-transform: uppercase;
+    font-size: 1.5em;
+    border: solid white 1px;
+    border-radius: 5%;
+}
+
+#button:hover{
+    background-color: white;
+    color: #FC8369;
+}
