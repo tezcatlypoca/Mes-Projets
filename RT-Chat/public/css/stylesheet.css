@@ -17,3 +17,5 @@ button:hover{
 #chatInfo{ 
     background-color: #AD422C;
 }
+
+#chatMessage{ color: black; }
