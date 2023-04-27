@@ -1,0 +1,5 @@
+Ce programme en Java trace un graphe (qui connecte des points proches) en noir
+et l'arbre des plus courts chemeins en vert.
+
+L'ensemble des sommets en attente est geree avec une liste, et non un tas ou une autre queue de priorite.
+

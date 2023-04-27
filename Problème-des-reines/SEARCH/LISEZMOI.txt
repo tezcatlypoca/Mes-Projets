@@ -1,0 +1,22 @@
+implantation d'un backtrack generique
+avec pile= liste d'état (Object)
+la liste est une L
+
+Pbm est un probleme bidon
+
+Reine résout le probleme des reines
+
+COMPILER PAR
+javac L.java Search.java Reine.java
+
+EXECUTER PAR 
+java Reine 13
+
+
+j'ai écrit une version non récursive sans avoir à augmenter la taille de pile:
+java -Xss16m Reine 10
+
+bug: je n'ai pas la patience de mettre backtrack dans une classe 
+dont on hérite (plutot que de copier backtrack dans Reine, Pbm, etc)
+
+DM, 12 sept 2017
